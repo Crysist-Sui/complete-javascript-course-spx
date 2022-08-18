@@ -43,18 +43,51 @@ console.log(typeof null);
 */
 
 // let var const 区别
-// let 定义变量,const定义常量
+// let 定义变量,const定义常量 未来不能改变
 // var是定义变量的旧方法
-let age = 30;
-age = 31;
+// let age = 30;
+// age = 31;
 
-const birthYear = 1991;
-birthYear = 1990;
+// const birthYear = 1991;
+/*birthYear = 1990;*/
 
 // const job;
 
-var job = "programmer";
-job = "teacher";
+// var job = "programmer";
+// job = "teacher";
+//
+// lastName = "Schmedtman";
+// console.log(lastName);
 
-lastName = "Schmedtman";
-console.log(lastName);
+/*const now = 2037
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3)
+
+const firstName = "Jonas";
+const lastName = "Schmedtmann";
+console.log(firstName + " " + lastName)
+
+let x = 10 + 5; // 15;
+x += 10 // x = x + 10;
+x *= 4;
+x++; // x = x + 1
+x--; // x = x - 1
+x--;
+console.log(x)
+
+console.log(ageJonas > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >=18;
+console.log()
+*/
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jonas);
