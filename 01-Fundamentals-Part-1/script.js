@@ -128,9 +128,23 @@ n = n - 1; // 10
 console.log(n);
 */
 
+
 // 五种False类型的值：0, "", undefined, null, NaN
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean("Jonas"));
 console.log(Boolean({}));
 console.log(Boolean(""));
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision) {
+    console.log("sarah is able to drive")
+} else {
+    console.log("someone else should drive")
+}
